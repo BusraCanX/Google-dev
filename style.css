@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+.üstul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+.üstli{
+    display: inline;
+    margin: 5px 10px 5px;
+    text-align: center;
+    
+}.üstli a img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+.navbar{
+    overflow: hidden;
+}
+a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.profil{
+    border-radius: 50%;
+}
+.sol {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.logoluinput{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+i{
+    position: absolute;
+   margin-top: 8px;
+   margin-left: 500px;
+}
+.logoluinput {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+.logoluinput input[type="text"]{
+    width: 100%;
+    padding: 10px 40px 10px 15px; /* sağda ses ikonu için boşluk */
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+  
+}
+.logoluinput img {
+    position: absolute;
+    right:25px;
+    width: 20px;
+    height: 20px;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+button{
+    margin-left: 10px;
+    height: 30px;
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+}
+.altulsol , .altulsag{
+    display: flex;
+}
+.altlisol , .altlisag{
+    margin: 10px 20px 10px 20px;
+    display: inline;
+    text-align: center;
+}
+.foot .altulsag{
+    text-align: right;
+}
+.foot .altulsol{
+   text-align: left;
+}
+.footer{
+   overflow: hidden;
+   display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
